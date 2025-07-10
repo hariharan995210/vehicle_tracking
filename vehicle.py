@@ -9,7 +9,7 @@ from scipy.optimize import linear_sum_assignment
 model = YOLO('yolov8n.pt')  # Ensure you have this model downloaded or specify the correct path
 
 # Define the video source
-video_path = 'car7.mp4'  # Replace with your video path or use 0 for webcam
+video_path = 'assets/car7.mp4'  # Replace with your video path or use 0 for webcam
 cap = cv2.VideoCapture(video_path)
 
 # Check if video opened successfully
